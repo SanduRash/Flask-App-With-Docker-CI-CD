@@ -6,7 +6,7 @@ def home():
     return render_template("index.html")
 
 @app.route("/api")
-def api():
+def api(){}:
     return jsonify({"message": "Hey there python"})
 
 if __name__ == "__main__":
